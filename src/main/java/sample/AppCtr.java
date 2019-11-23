@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package sample;
-
+import static sample.Utils.concatWords;
 /**
  *
  * @author marhoum
@@ -14,7 +14,7 @@ public class AppCtr {
     public static void main(String[] args) {
         String variable1 = args[0];
         String variable2 = args[1];
-        args[3] = sample.Utils.concatWords(variable1 + variable2);
+        args[3] = concatWords(variable1 + variable2);
         System.out.println("Resultat" + args[3]);
     }
 }
