@@ -5,14 +5,16 @@
  */
 package sample;
 
-import static sample.Utils.computeFactorial;
+
+
+
 /**
  *
  * @author marhoum
  */
 public class AppCtr {
         public static void main(String[] args) {
-            String arg = computeFactorial(7);
+            String arg = sample.Utils.computeFactorial(7);
     
         }
 }
