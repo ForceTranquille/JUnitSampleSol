@@ -22,6 +22,7 @@ public class Utils {
         for (String word : words) {
             buf.append(word);
         }
+      
         return buf.toString();
     }
 
