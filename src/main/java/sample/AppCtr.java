@@ -12,7 +12,7 @@ import static sample.Utils.computeFactorial;
  */
 public class AppCtr {
         public static void main(String[] args) {
-
-           computeFactorial(7);
+            String arg = computeFactorial(7);
+    
         }
 }
