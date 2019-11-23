@@ -5,6 +5,7 @@
  */
 package sample;
 
+import static sample.Utils.computeFactorial;
 /**
  *
  * @author marhoum
@@ -12,6 +13,6 @@ package sample;
 public class AppCtr {
         public static void main(String[] args) {
 
-            System.out.println(" resultat " + Utils.computeFactorial(7));
+            System.out.println(" resultat " + computeFactorial(7));
         }
 }
