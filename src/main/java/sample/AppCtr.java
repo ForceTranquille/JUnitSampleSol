@@ -15,7 +15,7 @@ public class AppCtr {
 
     public static void main(String[] args) {
 
-        concatWords(args[0] + args[1]);
+        System.out.println(concatWords(args[1] ,args[0]));
 
     }
 }
