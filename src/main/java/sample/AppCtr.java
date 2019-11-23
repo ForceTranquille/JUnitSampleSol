@@ -13,6 +13,6 @@ import static sample.Utils.computeFactorial;
 public class AppCtr {
         public static void main(String[] args) {
 
-            System.out.println(" resultat " + computeFactorial(7));
+           computeFactorial(7);
         }
 }
