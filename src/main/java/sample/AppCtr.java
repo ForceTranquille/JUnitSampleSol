@@ -14,7 +14,7 @@ package sample;
  */
 public class AppCtr {
         public static void main(String[] args) {
-            String arg = sample.Utils.computeFactorial(7);
-    
-        }
+            String resultat = sample.Utils.computeFactorial(7);
+            System.out.println("Traitement" + resultat);
+        } 
 }
